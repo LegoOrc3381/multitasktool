@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        TMS
+    </title>
+
+    <style>
+        body {background-color: #333; overflow: hidden}
+        * {box-sizing: border-box; color: white; margin: 0}
+    </style>
+    <link rel="stylesheet" href="css/MTT/header.css">
+    <link rel="stylesheet" href="css/MTT/nav.css">
+    <link rel="stylesheet" href="css/MTT/iframeTools.css">
+
+</head>
+<body>
+    <header>
+        <div class="badge">
+            <p class="a2 b">
+                ulti
+            </p>
+            <p class="b2 b">
+                ask
+            </p>
+            <p class="c2 b">
+                ool
+            </p>
+        </div>
+        <p class="a1 a">
+            M
+        </p>
+        <p class="b1 a">
+            T
+        </p>
+        <p class="c1 a">
+            T
+        </p>
+    </header>
+    <main>
+        <section id="NavLeiste">
+            <h2>
+                Inhalt
+            </h2>
+            <div class="line1"></div>
+            <div id="Leiste">
+                <nav id="allgemein">
+                    <h3>
+                        Allgemeines
+                    </h3>
+                    <a class="Überblick active">
+                        Übersicht
+                    </a>
+                </nav>
+                <nav id="toolchoice">
+                    <h3>
+                        Tools
+                    </h3>
+                    <a class="Rechner unactive">
+                        Rechner
+                    </a>
+                </nav>
+            </div>
+        </section>
+        <section id="tools">
+            <iframe id="ÜberblickScreen" src="html/ÜberblickMTTallgemein.html"></iframe>
+            <iframe id="Rechner" src="html/RechnerMTTtools.html"></iframe>
+        </section>
+    </main>
+    <script src="js/MTT/navAnim.js"></script>
+    <script src="js/MTT/iframeSwitch.js"></script>
+</body>
+</html>

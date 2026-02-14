@@ -1,0 +1,12 @@
+header {border: 3px solid black; border-radius: 0 0 120px 120px; display: flex; position: fixed; margin: 10px 8px; width: 72.5%; justify-content: center;
+background-color: #333; justify-self: right}
+header .a {font-size: 6.5rem; font-style: italic; font-weight: bold}
+header .b {font-size: 2.4rem; font-style: italic; color: #818181b4}
+header .badge {position: relative}
+header .badge .b {position: absolute}
+header .a1 {margin-right: 70px}
+header .badge .a2 {left: 94px; top: 40px}
+header .b1 {margin-right: 70px}
+header .badge .b2 {left: 214px; top: 45px}
+header .c1 {margin-right: 40px}
+header .badge .c2 {left: 350px; top: 45px}

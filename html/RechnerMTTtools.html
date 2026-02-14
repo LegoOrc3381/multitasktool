@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {background-color: #1f1f1f}
+        * {box-sizing: border-box; margin: 0}
+    </style>
+    <link rel="stylesheet" href="../css/RECHNER/screen.css">
+    <link rel="stylesheet" href="../css/RECHNER/buttons.css">
+
+</head>
+<body>
+    <main>
+        <section id="Rechner">
+            <input aria-label class="screen">
+            <div id="nums">
+                <div class="firstRow">
+                    <button id="7" class="num a">7</button>
+                    <button id="8" class="num a">8</button>
+                    <button id="9" class="num a">9</button>
+                </div>
+                <div class="secondRow">
+                    <button id="4" class="num a">4</button>
+                    <button id="5" class="num a">5</button>
+                    <button id="6" class="num a">6</button>
+                </div>
+                <div class="thirdRow">
+                    <button id="1" class="num a">1</button>
+                    <button id="2" class="num a">2</button>
+                    <button id="3" class="num a">3</button>
+                </div>
+                <div class="single">
+                    <button id="0" class="num a">0</button>
+                </div>
+            </div>
+            <div id="operators">
+                <button id="plus" class="a">+</button>
+                <button id="minus" class="a">-</button>
+                <button id="mal" class="a">x</button>
+                <button id="teilen" class="a">:</button>
+                <button id="gleich" class="a">=</button>
+            </div>
+            <div id="commands">
+                <button id="clear">C</button>
+                <button id="backspace"><</button>
+            </div>
+        </section>
+    </main>
+    <script src="../js/RECHNER/calcsFunc.js"></script>
+</body>
+</html>
